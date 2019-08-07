@@ -1,0 +1,94 @@
+This is Asiatic pTeX, Version 3.14159265 (W32TeX) (preloaded format=ptex-ng 2019.8.7)  7 AUG 2019 23:43
+entering extended mode
+**test-otf-latex.tex
+(test-otf-latex.tex
+! Undefined control sequence.
+l.2 \documentclass
+                  [12pt]{article}
+? 
+! Undefined control sequence.
+l.3 \DeclareFontFamily
+                      {JY2}{fandolsong}{}
+? 
+! Undefined control sequence.
+l.4 \DeclareFontShape
+                     {JY2}{fandolsong}{m}{n}{<->s*[0.962216]ot:FandolSong-Re...
+
+? 
+! Undefined control sequence.
+l.5 \DeclareFontShape
+                     {JY2}{fandolsong}{bx}{n}{<->ssub*simsun/m/n}{}
+? 
+! Undefined control sequence.
+l.6 \DeclareRobustCommand
+                         \fandolsong{\kanjifamily{fandolsong}\selectfont}
+? 
+! Undefined control sequence.
+l.6 \DeclareRobustCommand\fandolsong
+                                    {\kanjifamily{fandolsong}\selectfont}
+? 
+! Undefined control sequence.
+l.6 \DeclareRobustCommand\fandolsong{\kanjifamily
+                                                 {fandolsong}\selectfont}
+? 
+! Undefined control sequence.
+l.6 ...dolsong{\kanjifamily{fandolsong}\selectfont
+                                                  }
+? 
+! Undefined control sequence.
+l.7 \DeclareFontFamily
+                      {JY2}{emj}{}
+? 
+! Undefined control sequence.
+l.8 \DeclareFontShape
+                     {JY2}{emj}{m}{n}{<->s*[0.962216]ot:seguiemj.ttf:upjisr-...
+
+? 
+! Undefined control sequence.
+l.9 \DeclareRobustCommand
+                         \emj{\kanjifamily{emj}\selectfont}
+? 
+! Undefined control sequence.
+l.9 \DeclareRobustCommand\emj
+                             {\kanjifamily{emj}\selectfont}
+? 
+! Undefined control sequence.
+l.9 \DeclareRobustCommand\emj{\kanjifamily
+                                          {emj}\selectfont}
+? 
+! Undefined control sequence.
+l.9 ...ustCommand\emj{\kanjifamily{emj}\selectfont
+                                                  }
+? 
+! Undefined control sequence.
+l.10 \begin
+           {document}
+? 
+! Undefined control sequence.
+l.11 \fandolsong
+                 \Large 在正文中使用带色颜文字：{\emj 😀😁...
+? 
+! Undefined control sequence.
+l.11 \fandolsong \Large
+                        在正文中使用带色颜文字：{\emj 😀😁...
+? 
+! Undefined control sequence.
+l.11 ... 在正文中使用带色颜文字：{\emj
+                                                   😀😁😂😃}。
+? 
+
+Overfull \hbox (52.13515pt too wide) in paragraph at lines 2--12
+[]\tenrm [12pt]article JY2fandolsong JY2fandolsongmn<->s*[0.962216]ot:FandolSon
+g-Regular.otf:upjisr-h JY2fandolsongbxn<-|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\displace 0.0
+.\tenrm [
+.\tenrm 1
+.\tenrm 2
+.etc.
+
+[1] )
+Output written on test-otf-latex.dvi (1 page, 580 bytes).
+Output written on test-otf-latex.pdf (1 page, 10231 bytes).
